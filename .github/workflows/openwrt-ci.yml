@@ -5,11 +5,11 @@ on:
   repository_dispatch:
   release:
     types: published
-#  push:
-#    branches:
-#      - main
-#    paths:
-#      - 'all.config'
+  push:
+    branches:
+      - main
+    paths:
+      - 'all.config'
   schedule:
     - cron: 0 22 */2 * * 
   watch:
